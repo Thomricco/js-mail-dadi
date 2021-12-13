@@ -24,10 +24,10 @@ const button = document.getElementById('button-box');
 
 
 button.addEventListener('click', function () {
-    let numPc = Math.floor(Math.random() * 10) + 1;
+    let numPc = Math.floor(Math.random() * 6) + 1;
     document.getElementById("numero-pc").innerHTML ="Lancio computer " + numPc;
     
-    let  numUser = Math.floor(Math.random() * 10) + 1;
+    let  numUser = Math.floor(Math.random() * 6) + 1;
     document.getElementById("numero-user").innerHTML ="Il tuo lancio " + numUser;
     
     if(numUser > numPc) {
